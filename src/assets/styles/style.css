@@ -1,12 +1,96 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
-  color: #f95959;
+  color: white;
+  margin: 0;
 }
 
 body {
   margin: 0;
   background: #233142;
+}
+body #root header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+  padding: 10px;
+}
+body #root .main_container {
+  margin-top: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+body #root .main_container .container_apropos {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body #root .main_container .container_apropos h1 {
+  color: #f95959;
+}
+body #root .main_container .container_skill {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body #root .main_container .container_skill h1 {
+  color: #f95959;
+}
+body #root .main_container .container_skill .small_container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+body #root .main_container .container_skill .small_container .icon_code {
+  height: 50px;
+}
+body #root .main_container .container_skill .small_container .icon_react {
+  height: 50px;
+  width: 62.5px;
+}
+body #root .main_container .container_projet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body #root .main_container .container_projet h1 {
+  color: #f95959;
+}
+body #root .main_container .container_projet .container_components {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+body #root .main_container .container_projet .container_components .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+  width: 30%;
+  border: solid #f95959;
+  border-radius: 10%;
+}
+body #root .main_container .container_projet .container_components .card img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+body #root .main_container .container_contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body #root .main_container .container_contact h1 {
+  color: #f95959;
 }
 
 /*# sourceMappingURL=style.css.map */
