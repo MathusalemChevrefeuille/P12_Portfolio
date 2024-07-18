@@ -55,16 +55,19 @@ function Home () {
                         image={booki}
                         description="Front end de Booki un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix."
                         lien="https://github.com/MathusalemChevrefeuille/Projet3_Booki"
+                        lien2="https://mathusalemchevrefeuille.github.io/Projet3_Booki/"
                         />
                     <Projet
                         image={ohmyfood}
                         description="Front end de Ohmyfood un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée"
                         lien="https://github.com/MathusalemChevrefeuille/Projet4_Ohmyfood"
+                        lien2="https://mathusalemchevrefeuille.github.io/Projet4_Ohmyfood/"
                         />
                     <Projet
                         image={printit}
                         description="Front end de Print it un site Internet statique d’une petite imprimerie familiale ."
                         lien="https://github.com/MathusalemChevrefeuille/Projet5_Print-It"
+                        lein2="https://mathusalemchevrefeuille.github.io/Projet5_Print-It/"
                         />
                     <Projet
                         image={sophiebluel}
@@ -75,6 +78,7 @@ function Home () {
                         image={kasa}
                         description="Front end de Kasa un site location d’appartements entre particuliers."
                         lien="https://github.com/MathusalemChevrefeuille/Projet7-Kasa"
+                        lien2="https://projet7-kasa-six.vercel.app/"
                         />  
                     <Projet
                         image={argentbank}

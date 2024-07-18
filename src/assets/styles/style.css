@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Montserrat", sans-serif;
-  color: white;
+  color: #556A7C;
   margin: 0;
 }
 
 body {
   margin: 0;
-  background: #233142;
+  background: #E3F0FC;
 }
 body #root header {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 10px;
-  padding: 10px;
+  gap: 30px;
+  padding-top: 10px;
+  padding-right: 20px;
 }
 body #root .main_container {
   margin-top: 150px;
@@ -28,10 +29,10 @@ body #root .main_container {
 body #root .main_container .container_apropos {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 20px;
 }
 body #root .main_container .container_apropos h1 {
-  color: #f95959;
+  color: #00519B;
 }
 body #root .main_container .container_skill {
   display: flex;
@@ -39,7 +40,8 @@ body #root .main_container .container_skill {
   gap: 5px;
 }
 body #root .main_container .container_skill h1 {
-  color: #f95959;
+  color: #00519B;
+  margin-bottom: 15px;
 }
 body #root .main_container .container_skill .small_container {
   display: flex;
@@ -59,7 +61,8 @@ body #root .main_container .container_projet {
   gap: 10px;
 }
 body #root .main_container .container_projet h1 {
-  color: #f95959;
+  color: #00519B;
+  margin-bottom: 15px;
 }
 body #root .main_container .container_projet .container_components {
   display: flex;
@@ -73,9 +76,9 @@ body #root .main_container .container_projet .container_components .card {
   flex-direction: column;
   align-items: center;
   gap: 5px;
-  padding: 5px;
+  padding: 20px;
   width: 30%;
-  border: solid #f95959;
+  border: solid #00519B;
   border-radius: 10%;
 }
 body #root .main_container .container_projet .container_components .card img {
@@ -90,7 +93,8 @@ body #root .main_container .container_contact {
   gap: 5px;
 }
 body #root .main_container .container_contact h1 {
-  color: #f95959;
+  color: #00519B;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
