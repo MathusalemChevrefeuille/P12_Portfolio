@@ -1,11 +1,11 @@
-import code_solid from "../../assets/images/code-solid.svg"
-import react_icon from "../../assets/images/react.svg"
-import booki from "../../assets/images/Booki.webp"
-import ohmyfood from "../../assets/images/ohmyfood.webp"
-import printit from "../../assets/images/Printit.webp"
-import sophiebluel from "../../assets/images/SophieBluel.webp"
-import kasa from "../../assets/images/Kasa.webp"
-import argentbank from "../../assets/images/Argentbank.webp"
+import code_solid from "../../assets/images/code-solid.svg";
+import react_icon from "../../assets/images/react.svg";
+import booki from "../../assets/images/Booki.webp";
+import ohmyfood from "../../assets/images/ohmyfood.webp";
+import printit from "../../assets/images/Printit.webp";
+import sophiebluel from "../../assets/images/SophieBluel.webp";
+import kasa from "../../assets/images/Kasa.webp";
+import argentbank from "../../assets/images/Argentbank.webp";
 import Projet from "./Projet";
 
 function Home () {
@@ -53,35 +53,41 @@ function Home () {
                 <div className="container_components">
                     <Projet
                         image={booki}
+                        titre="Booki"
                         description="Front end de Booki un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix."
                         lien="https://github.com/MathusalemChevrefeuille/Projet3_Booki"
                         lien2="https://mathusalemchevrefeuille.github.io/Projet3_Booki/"
                         />
                     <Projet
                         image={ohmyfood}
+                        titre="Ohmyfood"
                         description="Front end de Ohmyfood un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée"
                         lien="https://github.com/MathusalemChevrefeuille/Projet4_Ohmyfood"
                         lien2="https://mathusalemchevrefeuille.github.io/Projet4_Ohmyfood/"
                         />
                     <Projet
                         image={printit}
+                        titre="Printit"
                         description="Front end de Print it un site Internet statique d’une petite imprimerie familiale ."
                         lien="https://github.com/MathusalemChevrefeuille/Projet5_Print-It"
                         lien2="https://mathusalemchevrefeuille.github.io/Projet5_Print-It/"
                         />
                     <Projet
                         image={sophiebluel}
+                        titre="Sophie Bluel"
                         description="Front end d'un site portfolio de l'architecte d’intérieur Sophie Bluel."
                         lien="https://github.com/MathusalemChevrefeuille/Projet6_SophieBluel"
                         />
                     <Projet
                         image={kasa}
+                        titre="Kasa"
                         description="Front end de Kasa un site location d’appartements entre particuliers."
                         lien="https://github.com/MathusalemChevrefeuille/Projet7-Kasa"
                         lien2="https://projet7-kasa-six.vercel.app/"
                         />  
                     <Projet
                         image={argentbank}
+                        titre="Argent Bank"
                         description="Front end de Argent Bank une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire."
                         lien="https://github.com/MathusalemChevrefeuille/Projet10_Argentbank"
                         />
