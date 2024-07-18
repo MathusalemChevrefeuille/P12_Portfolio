@@ -67,7 +67,7 @@ function Home () {
                         image={printit}
                         description="Front end de Print it un site Internet statique d’une petite imprimerie familiale ."
                         lien="https://github.com/MathusalemChevrefeuille/Projet5_Print-It"
-                        lein2="https://mathusalemchevrefeuille.github.io/Projet5_Print-It/"
+                        lien2="https://mathusalemchevrefeuille.github.io/Projet5_Print-It/"
                         />
                     <Projet
                         image={sophiebluel}
