@@ -103,4 +103,32 @@ body #root .main_container .container_contact h1 {
   margin-bottom: 15px;
 }
 
+@media (max-width: 1000px) {
+  body #root .main_container .container_apropos p {
+    font-size: medium;
+  }
+  body #root .main_container .container_projet .container_components .card {
+    width: 100%;
+  }
+  body #root .main_container .container_projet .container_components .card img {
+    width: 100px;
+    height: 100px;
+  }
+  h1 {
+    font-size: large;
+  }
+  h2 {
+    font-size: medium;
+  }
+  h3 {
+    font-size: small;
+  }
+  p {
+    font-size: small;
+  }
+  a {
+    font-size: small;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
